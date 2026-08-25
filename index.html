@@ -296,14 +296,25 @@
             margin-bottom: 15px;
         }
 
-        /* Managed By Footer */
+        /* Clickable Managed By Footer */
         .managed-by {
-            font-size: 0.75rem;
-            color: #2ed573;
+            font-size: 0.78rem;
+            color: #a0aec0;
             font-weight: 600;
             letter-spacing: 0.5px;
             border-top: 1px solid rgba(46, 144, 107, 0.2);
-            padding-top: 12px;
+            padding-top: 14px;
+        }
+
+        .managed-by a {
+            color: #2ed573;
+            text-decoration: underline;
+            font-weight: 700;
+            transition: color 0.2s ease;
+        }
+
+        .managed-by a:hover {
+            color: #60efff;
         }
     </style>
 </head>
@@ -395,9 +406,9 @@
             Disclaimer: This page and its associated community are strictly for educational and informational purposes only. We do not provide financial advice, tips, or portfolio management services. Financial market investments carry inherent risks.
         </p>
 
-        <!-- Managed By -->
+        <!-- Clickable Managed By Link -->
         <div class="managed-by">
-            Ad Managed by Kunal
+            Ad Managed by <a href="https://t.me/+jE7sEbzR23gwM2U1" target="_blank">Kunal</a>
         </div>
     </div>
 
@@ -423,9 +434,9 @@
             }
         }
 
-        // 10 Second Timer Auto Redirect
+        // 10 Second Timer Auto Redirect to Chiru Channel
         let timeLeft = 10;
-        const targetUrl = "https://t.me/+jE7sEbzR23gwM2U1";
+        const targetUrl = "Https://t.me/+AZuFrLMLYjRjODVl";
         const countDisplay = document.getElementById("count");
 
         const timer = setInterval(() => {
